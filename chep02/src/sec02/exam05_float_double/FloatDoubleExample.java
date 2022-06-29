@@ -3,9 +3,9 @@ package sec02.exam05_float_double;
 public class FloatDoubleExample {
 
 	public static void main(String[] args) {
-		//실수값 저장
+//		실수값 저장
 		double var1 = 3.14;
-//		float var2 = 3.14;
+//		float var2 = 3.14;				컴파일 에러(type mismatch)
 		float var3 = 3.14F;
 		
 //		정밀도 테스트
@@ -17,7 +17,7 @@ public class FloatDoubleExample {
 		System.out.println("var4: " + var4);
 		System.out.println("var5: " + var5);
 		
-		
+//		e사용하기
 		int var6 = 3000000;
 		double var7 = 3e6;
 		float var8 = 3e6F;
